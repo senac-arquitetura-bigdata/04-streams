@@ -3,7 +3,6 @@ import time
 import random
 from faker import Faker
 
-#r = redis.Redis(host='redis-17852.c15.us-east-1-2.ec2.cloud.redislabs.com', port=17852, db=0, password='E3IENTnwAiFZQhIJMj4nMxSEvjuiJOdu')
 r = redis.Redis()
 
 fake = Faker()
